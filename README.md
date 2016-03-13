@@ -15,7 +15,7 @@
 % a simple example to use the code 
 
 % do alignment for all instances within the same category 
-[aligned_point_files, pre_aligned_point_files] = category_alignment("Category_point/motors_m");
+[aligned_point_files, pre_aligned_point_files] = category_alignment('/Category_point/motors_m');
 % constuct 3D vorcabulary and discrete MRF, by default a 20*20*20 size bounding box is used
 [documents,connections,min_3D,interval] = discretization(aligned_point_files);
 % the number of segments 
