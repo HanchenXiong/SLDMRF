@@ -22,7 +22,7 @@
 K = 5; 
 % number of 3D visual words
 V = 20^3; 
-[labels,psi,theta]=ldmrf_gibbs_sampler(documents,connections,K,V);
+[labels,psi,theta]=sldmrf_gibbs_sampler(documents,connections,K,V);
 
 % visualize the segmentations
 display_labels_3D(labels,aligned_point_files);
