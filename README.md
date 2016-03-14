@@ -9,6 +9,9 @@
 % --------------------------------------------------------------
 
 
+Please cite the paper if you use the code in your work: Hanchen Xiong, Sandor Szedmak, Justus Piater, **3D Object Class Geometry Modeling with Spatial Latent Dirichlet Markov Random Fields**. *35th German Conference on Pattern Recognition*, pp. 51–60, 2013. Springer LNCS 8142. 
+
+
 **Application of SLDMRF for 3D part-based object modeling**. 
 
 ``` Matlab
